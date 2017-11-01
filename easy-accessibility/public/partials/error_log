@@ -1,0 +1,2 @@
+[29-Mar-2017 12:18:31 UTC] PHP Fatal error:  Call to undefined function wp_get_recent_posts() in /home/webcontrolco/public_html/wp-content/plugins/easy-accessibility/public/partials/easy-accessibility-wai-html.php on line 22
+[29-Mar-2017 15:22:34 UTC] PHP Fatal error:  Call to undefined function get_posts() in /home/webcontrolco/public_html/wp-content/plugins/easy-accessibility/public/partials/easy-accessibility-wai-html.php on line 22

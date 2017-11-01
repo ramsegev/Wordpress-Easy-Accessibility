@@ -1,0 +1,72 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ 
+ .altEditBlock{
+		float:left;
+		width: 20%;
+		height:auto;
+ }
+  .altEditBlock img{
+		width: 100px;
+		height: auto;
+   }
+   div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+	div.tab a {
+		float: left;
+		display: block;
+		color: black;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		transition: 0.3s;
+		font-size: 17px;
+	}
+	div.tab a:hover {
+		background-color: #ddd;
+	}
+	div.tab a:focus, .active {
+		background-color: #ccc;
+	}
+	.tabcontent {
+		display: none;
+		padding: 6px 12px;
+		border: 1px solid #ccc;
+		border-top: none;
+	}
+   #editHtml{
+		margin: 10px 10px 10px 0px;
+   }
+   #show_editor{
+		width:40vw;
+		height: auto;
+		float:left;
+   }
+    #show_page{
+		width: 100%;
+		height: 100vh;
+
+   }
+   #custom_ifram, #iframThemeEditor{
+		width: 100%;
+		min-height:800px;
+		height: 100vh;
+		float: right;
+   }
+   .check_code{
+		display: none;
+		width: 49%;
+		height: 500px;
+		float: right;
+		margin: 30px 0px 10px 10px;
+		overflow: auto;
+   }
+   #frm_edit{
+	   float: left;
+		width: 49%;
+   }

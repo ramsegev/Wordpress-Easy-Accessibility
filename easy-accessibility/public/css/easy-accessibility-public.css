@@ -1,0 +1,109 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ #accessibility_menu{
+	position:fixed;
+	color: #335588;
+	top: 10px;
+	right: 0 !important;
+	max-width: 300px;
+	z-index: 99999999;
+ }
+ #accessibility_menu_content{
+	 display:none;
+	 height:auto;
+	 background-color: #fff;
+	 border: 4px solid #335588;
+	 border-radius:10%;
+	 overflow: auto;
+ }
+.two_column{
+	margin: 0;
+	font-size: 14px;
+	width: 50%;
+	height: 20px;
+}
+.tree_column{
+	margin: 0;
+	font-size: 14px;
+	width: 33%;
+	height: 20px;
+}
+li.tree_column:hover, li.two_column:hover{
+	background-color: #ECECEC;
+	color: #FF8026;
+	opacity: 0.6;
+}
+li.tree_column, li.two_column {
+	list-style: none;
+	text-align: center;
+	border-right:2px dashed;
+	cursor: pointer;
+}
+.lineWrap ul{
+  margin: auto;
+  padding: 10px;
+  border-top: 2px dashed;
+  }
+ul li.tree_column, ul li.two_column{
+	float:left;
+
+}
+ul li.tree_column:first-child, ul li.two_column:first-child{
+
+	border-left:2px dashed;
+}
+.right{
+	float: right;
+}
+
+.left{
+	float: left;
+}
+.title{
+	font-size: 14px;
+	text-align: center;
+	margin: 25px 0 5px 0;
+	}
+.mouse{
+	line-height:1;
+}
+.tooltip_box{
+	border:1px solid #000;
+	background-color:#eee;
+	position:fixed;
+	color: #000;
+}
+.tooltip_desc{
+	width:100%;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+.tooltip_sum{
+	width:100%;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	border-bottom: 2px solid #eee;
+
+}
+input[type="text"],input[type="tel"],input[type="email"] {
+	cursor:text
+}
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px !important;
+    margin: -1px !important;
+    overflow: hidden;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+
+}
+.texthidden{
+	color: transparent;
+	height: 0px;
+}
